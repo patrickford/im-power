@@ -16,5 +16,5 @@ For developer access to the code:
 
 Local server setup:
 - install node.js, express framework, and middleware from the package.json file: "npm install"
-- start the node.js server: "node app.js"
+- start the node.js server: "node server.js"
 - site will be accessible at: "localhost:3000"
