@@ -1,0 +1,18 @@
+[{"personalInfo": 
+  {
+    "title": null,
+    "firstName": null,
+    "lastName": null,
+    "DOBmonth": null,
+    "DOBday": null,
+    "DOByear": null,   
+    "gender": null,
+    "preferredLanguage": null,
+    "race": null,
+    "raceDeclined": false,
+    "ethnicity": null,
+    "ethnicityDeclined": false,
+    "maritalStatus": null,
+    "numberOfChildren": null
+  }
+}]

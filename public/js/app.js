@@ -22,6 +22,10 @@ var myApp = angular.module('myApp',
         .when('/accounts', {
           templateUrl: 'partials/account-form.html'
         })
+        .when('/dashboard', {
+          templateUrl: 'partials/dashboard.html',
+          controller: 'js/dashboard.js'
+        })
         .when('/coming-soon', {
           templateUrl: 'partials/comingsoon.html'
         })
