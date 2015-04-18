@@ -8,6 +8,10 @@
 /* Bootstrap.css overrides */
 /***************************/
 
+body{
+	background-color: #F1F1F1;
+}
+
 h1 {
   color: red;
 }
@@ -33,6 +37,7 @@ body {
 
 .container {
 	min-height: 400px;
+}
 
 }
 
@@ -138,6 +143,7 @@ a, a:link, a:visited {
 .add-margin-right-10 {
 	margin-right: 10px;
 }
+
 .add-margin-left-10 {
 	margin-left: 10px;
 }
@@ -169,6 +175,16 @@ a, a:link, a:visited {
 	-webkit-user-select: none;
 	-ms-user-select: none;
 	cursor: default;
+}
+
+/**********************************/
+/* Navigation Bar                 */
+/**********************************/
+
+.navbar{
+	background-color: white;
+	border: none;
+	height: 60px;
 }
 
 /*************************/
