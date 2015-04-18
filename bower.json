@@ -1,0 +1,25 @@
+{
+  "name": "im-power",
+  "version": "0.1.0",
+  "homepage": "https://github.com/patrickford/im-power",
+  "authors": [
+    "Patrick Ford <patrickford@msn.com>"
+  ],
+  "description": "Re-engaging Democracy",
+  "main": "im-power/public/index.html",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "Voting"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

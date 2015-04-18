@@ -1,0 +1,35 @@
+[
+  {
+    "date": "May 5, 2014 10:08AM",
+    "comment": true,
+    "height": "5'4\"",
+    "weight": "200",
+    "bmi": "34.3",
+    "bp": "120/80",
+    "pulse": "60",
+    "temp": "98.6",
+    "source": "Provider"
+  },
+  {
+    "date": "Jun 5, 2014 03:00PM",
+    "comment": false,
+    "height": "6'1\"",
+    "weight": "200",
+    "bmi": "26.3",
+    "bp": "120/80",
+    "pulse": "65",
+    "temp": "98.6",
+    "source": "Patient"
+  },  
+  {
+    "date": "Apr 5, 2014 11:10PM",
+    "comment": true,
+    "height": "5'4\"",
+    "weight": "170",
+    "bmi": "27.1",
+    "bp": "160/95",
+    "pulse": "72",
+    "temp": "98.6",
+    "source": "Provider"
+  }  
+]

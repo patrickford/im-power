@@ -1,0 +1,85 @@
+<!-- Copyright © 2015 I'm Power All Rights Reserved. --> 
+
+<!-- Main loading page -->
+
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>I'm Power</title>
+    <meta name="description" content="Re-engaging Democracy">
+    <meta name="author" content="Patrick Ford">
+
+    <!-- Meta tag for enabling mobile device viewing. -->
+    <meta name="viewport" content="width=device-width, maximum-scale=1">
+
+    <!-- Tags for making saved web page display in full screen app mode --> 
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">   
+
+    <!-- Icons for browser and for mobile devices -->
+<!--     <link rel="icon" href="img/favicon.ico"> -->
+    
+    <!-- Angular.js MVC compressed libraries (use for production) -->
+    <script src="dist/angular.min.js"></script>
+    <script src="dist/angular-route.min.js"></script>
+    <script src="dist/angular-animate.min.js"></script>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="dist/jquery-1.11.1.min.js"></script>
+
+    <!-- Underscore library -->
+    <script src="dist/underscore-min.js"></script>
+
+    <!-- Bootstrap compressed files (use for production) 
+    <script src="bootstrap-custom/js/bootstrap.min.js"></script>
+    -->
+    <script src="dist/ui-bootstrap-tpls-0.11.2.min.js"></script>
+
+    <!-- Library for dislaying message received dates -->
+    <script src="dist/moment+locales.min.js"></script>
+   
+    <!-- Angular custom javascript -->
+    <script src="js/app.js"></script>   
+
+    <!-- Customized Bootstrap responsive styling generated from LESS files -->
+    <link href="bootstrap-3.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Open Sans font -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+
+    <!-- Font Awesome -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Modernizr.js library for handling media queries for conditional loading of views -->
+    <script src="dist/modernizr.custom.min.js"></script> 
+
+    <!-- Custom Javascript for UI controls -->
+    <script src="js/im-power-interface.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  
+  <body>
+    <div class="container">
+     <!-- Header Branding -->
+      <div class="nav-container">
+
+        <!-- Show main navigation -->
+        <div ng-include="'partials/main-nav.html'"></div>
+
+      </div> <!-- nav-container -->
+
+      <!-- Angular view partials display here -->
+      <div ng-view></div>
+
+    </div> <!-- container -->    
+    <div ng-include="'partials/footer.html'"></div>
+  </body>
+</html>

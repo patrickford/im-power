@@ -1,0 +1,22 @@
+[
+  {
+    "immunization": "Dengue Fever",
+    "date": "",
+    "source": "Patient"
+  },
+  {
+    "immunization": "DTap",
+    "date": "Apr 1, 2007",
+    "source": "Provider"
+  },
+  {
+    "immunization": "Measles",
+    "date": "Jan 16, 2002",
+    "source": "Provider"
+  },
+  {
+    "immunization": "Plague",
+    "date": "Apr 5, 1999",
+    "source": "Provider"
+  }
+]

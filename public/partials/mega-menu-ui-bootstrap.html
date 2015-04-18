@@ -1,0 +1,96 @@
+<!-- Copyright © 2014 RelayHealth Corporation. All Rights Reserved. --> 
+
+<!-- Primary navigation bar using method for UI-Bootstrap -->
+
+<nav class="navbar navbar-default navbar-fixed-top main-nav">
+	<div class="navbar-inner">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-3" ng-click="isCollapsed = !isCollapsed">
+					<span class="sr-only" translate>Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="provider-logo-wrapper visible-xs" href="#"><img class="provider-logo" alt="RelayHealth" src="img/relayhealth_logo_transparent.png"></a>
+			</div> <!-- navbar-header -->
+
+			<nav class="hidden-xs">		
+				<ul class="nav navbar-nav">
+					<li>
+            <a class="provider-logo-wrapper" href="#home">
+						  <img class="provider-logo" alt="RelayHealth" src="img/relayhealth_logo_transparent.png">
+						</a>
+					</li>
+			    <li>
+            <a href="#MessageCenter" translate>Messages</a>
+<!--             <div class="menu-select-triangle"></div> -->
+          </li>
+		      		<!-- Health Info menu -->					
+					<li class="dropdown menu-large">
+						<a href="#" role="button" class="dropdown-toggle" translate>Medical Records <b class="caret"></b></a>
+						<ul class="dropdown-menu megamenu row">
+          		<li class="col-sm-6">
+            		<ul class="border-right">
+            			<li class="dropdown-header"     translate>Clinical Data</li>
+            			<li><a href="#hr-medAllergies"  translate>Meds & Allergies</a></li>
+            			<li><a href="#hr-probProc"      translate>Problems & Procedures</a></li>
+            			<li><a href="#hr-results"       translate>Results</a></li>
+            			<li><a href="#hr-vitals"        translate>Vitals</a></li>
+            			<li><a href="#hr-fam-soc-hist"  translate>Family & Social History</a></li>
+            			<li><a href="#hr-immunizations" translate>Immunizations</a></li>
+            			<li><a href="#hr-documents"     translate>Documents</a></li> 
+            		</ul>
+          		</li> <!-- col -->
+          		<li class="col-sm-6">
+            		<ul>  
+            			<li class="dropdown-header"     translate>View</li>     
+            			<li><a href="#hr-personal-info" translate>Personal Information</a></li>
+            			<li><a href="#coming-soon"      translate>Access History</a></li>
+            			<li><a href="#coming-soon"      translate>Tracking Results/Health Vault</a></li>
+            			<li class="dropdown-header add-margin-top-10" translate>Actions</li>     
+            			<li><a href="#coming-soon"      translate>Upload/Download Health Data</a></li>
+            			<li><a href="#hr-manage-family" translate>Manage Family Members</a></li>
+            		</ul>
+          		</li> <!-- col --> 
+						</ul> <!-- megamenu row -->
+					</li> <!-- Health Info menu -->
+
+	      	<li><a href="#coming-soon" translate>Providers</a></li>
+	      	<li><a href="#coming-soon" translate>Education</a></li>
+	      	<li><a href="#accounts" translate>Account</a></li>
+
+				</ul> <!-- navbar-nav -->
+	      	<!-- Non-nav links -->
+      	<p class="navbar-text navbar-right"><a href="#" class="navbar-link" translate>Log Out</a></p>  
+      	<p class="navbar-text navbar-right"><a href="#" class="navbar-link" translate>Patient Name</a></p>
+      </nav>
+
+  		<nav class="visible-xs" collapse="!isCollapsed">
+      	<ul class="nav navbar-nav">
+          <li><a href="#MessageCenter" ng-click="isCollapsed = !isCollapsed" translate>Messages</a></li>
+    			<li class="dropdown">              
+    				<a href="#" role="button" class="dropdown-toggle" translate>Medical Records <b class="caret"></b></a>
+    				<ul class="dropdown-menu">
+    					<li><a href="#hr-medAllergies"  ng-click="isCollapsed = !isCollapsed" translate>Meds & Allergies</a></li>
+          		<li><a href="#hr-probProc"      ng-click="isCollapsed = !isCollapsed" translate>Problems & Procedures</a></li>
+          		<li><a href="#hr-results"       ng-click="isCollapsed = !isCollapsed" translate>Results</a></li>
+          		<li><a href="#hr-vitals"        ng-click="isCollapsed = !isCollapsed" translate>Vitals</a></li>
+          		<li><a href="#hr-fam-soc-hist"  ng-click="isCollapsed = !isCollapsed" translate>Family & Social History</a></li>
+          		<li><a href="#hr-immunizations" ng-click="isCollapsed = !isCollapsed" translate>Immunizations</a></li>
+          		<li><a href="#hr-documents"     ng-click="isCollapsed = !isCollapsed" translate>Documents</a></li> 
+          		<li><a href="#hr-personal-info" ng-click="isCollapsed = !isCollapsed" translate>Personal Information</a></li>
+          		<li><a href="#coming-soon"      ng-click="isCollapsed = !isCollapsed" translate>Access History</a></li>
+          		<li><a href="#coming-soon"      ng-click="isCollapsed = !isCollapsed" translate>Tracking Results/Health Vault</a></li>
+    			  </ul>
+    			</li>            
+      		<li><a href="#coming-soon" ng-click="isCollapsed = !isCollapsed" translate>Providers</a></li>
+      		<li><a href="#coming-soon" ng-click="isCollapsed = !isCollapsed" translate>Education</a></li>
+      		<li><a href="#accounts"    ng-click="isCollapsed = !isCollapsed" translate>Account</a></li>
+      		<li><a href="#coming-soon" ng-click="isCollapsed = !isCollapsed" translate>Patient Name</a></li>
+      		<li><a href="#coming-soon" ng-click="isCollapsed = !isCollapsed" translate>Log Out</a></li>
+      	</ul> <!-- navbar-nav -->
+  		</nav>
+    </div> <!-- container -->
+  </div> <!-- navbar-inner -->
+</nav>

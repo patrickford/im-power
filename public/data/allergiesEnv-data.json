@@ -1,0 +1,16 @@
+[
+  {
+    "allergy": "Milk",
+    "reactions": "Headache",
+    "firstOccurance": "Feb 5, 2014",
+    "status": "Active",
+    "source": "Patient"
+  },
+  {
+    "allergy": "Wool",
+    "reactions": "Itching, Nasal/Sinus Congestion",
+    "firstOccurance": "Mar 20, 1994",
+    "status": "Active",
+    "source": "Patient"
+  }
+]
