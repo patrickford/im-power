@@ -1,5 +1,5 @@
 /*****************************************************************************/
-/* Custom CSS for I'm Power - Re-engaging Democracy - by Patrick Ford        */                */
+/* Custom CSS for I'm Power - Re-engaging Democracy - by Patrick Ford        */   
 /* Loaded after the customized bootstrap.css which is built from LESS files. */
 /*****************************************************************************/
 @charset "UTF-8";
@@ -7,6 +7,13 @@
 /***************************/
 /* Bootstrap.css overrides */
 /***************************/
+
+h1 {
+  color: red;
+}
+body {
+  border-top: 70px; 
+}
 
 .brand-color {
 	color: #70a8e0;
@@ -26,6 +33,8 @@
 
 .container {
 	min-height: 400px;
+
+}
 
 a, a:link, a:visited {
 	color: #003399;
@@ -311,6 +320,13 @@ a, a:link, a:visited {
 	margin-right: -15px;
 	padding-right: 15px;
 	padding-left: 15px;
+}
+
+.feature {
+  width: 100%;
+  height: 50px;
+  border: 2px solid black;
+  text-align: center;
 }
 
 .footer {

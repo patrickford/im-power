@@ -14,10 +14,10 @@ var myApp = angular.module('myApp',
     function($routeProvider) {
       $routeProvider
         .when('/', {
-          templateUrl: 'partials/home.html'
+          templateUrl: 'partials/welcome.html'
         })
         .when('/home', {
-          templateUrl: 'partials/home.html'
+          templateUrl: 'partials/welcome.html'
         })    
         .when('/profile', {
           templateUrl: 'partials/profile.html'
