@@ -19,8 +19,8 @@ var myApp = angular.module('myApp',
         .when('/home', {
           templateUrl: 'partials/home.html'
         })    
-        .when('/accounts', {
-          templateUrl: 'partials/account-form.html'
+        .when('/profile', {
+          templateUrl: 'partials/profile.html'
         })
         .when('/dashboard', {
           templateUrl: 'partials/dashboard.html',
