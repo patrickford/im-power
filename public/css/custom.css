@@ -8,13 +8,6 @@
 /* Bootstrap.css overrides */
 /***************************/
 
-body{
-	background-color: #F1F1F1;
-}
-
-h1 {
-  color: red;
-}
 body {
   border-top: 70px; 
 }
@@ -37,7 +30,6 @@ body {
 
 .container {
 	min-height: 400px;
-}
 
 }
 
@@ -143,7 +135,6 @@ a, a:link, a:visited {
 .add-margin-right-10 {
 	margin-right: 10px;
 }
-
 .add-margin-left-10 {
 	margin-left: 10px;
 }
@@ -177,16 +168,6 @@ a, a:link, a:visited {
 	cursor: default;
 }
 
-/**********************************/
-/* Navigation Bar                 */
-/**********************************/
-
-.navbar{
-	background-color: white;
-	border: none;
-	height: 60px;
-}
-
 /*************************/
 /* End of Helper Classes */
 /*************************/
@@ -196,152 +177,14 @@ a, a:link, a:visited {
 	cursor: pointer;
 }
 
-/**************************************************/
-/* Conditional display of elements                */
-/**************************************************/
-@media screen {
-	.print-only {
-		display: none;
-	}
-}
-
-@media screen and (max-width: 767px) {
-	.phone-no {
-		display: none !important;
-	}
-}
-
-@media screen and (min-width: 768px) {
-	.navbar-brand {
-		display: none;
-	}
-	.phone-yes {
-		display: none !important;
-	}
-	/* Adds vertical line separator on Health Info mega menu */
-	.border-right {
-	border-right-style: solid;
-	border-right-width: 1px;
-	border-right-color: #e5e5e5;
-	}
-}
-
-/* Conditional display of elements based on phone orientation */
-@media screen and (max-width: 414px) and (orientation: portrait) {
-	.landscape-only {
-		display: none;
-	}
-}
-
-@media screen and (min-width: 415px) and (orientation: landscape) {
-	.portrait-only {
-		display: none;
-	}
-}
-
-/*******************************************************************/
-/* Mega Menu Classes                                               */
-/* Added for Mega Menu (from jsfiddle.net/apougher/ydcMQ/ example) */
-/*******************************************************************/
-.menu-large {
-/*	position: static !important;
-*/
-	position: relative !important;
-}
-
-.megamenu{
-	padding: 15px 0px;
-  	width: 560px;
-}
-.megamenu> li > ul {
-  	padding: 0;
-  	margin: 0;
-}
-.megamenu> li > ul > li {
-  	list-style: none;
-}
-.megamenu> li > ul > li > a {
-  	display: block;
-  	padding: 3px 15px;
-  	clear: both;
-  	font-weight: normal;
-  	line-height: 1.428571429;
-  	color: #333333;
-  	white-space: normal;
-}
-.megamenu> li ul > li > a:hover,
-.megamenu> li ul > li > a:focus {
-  	text-decoration: none;
-  	color: #262626;
-  	background-color: #f5f5f5;
-}
-.megamenu.disabled > a,
-.megamenu.disabled > a:hover,
-.megamenu.disabled > a:focus {
-  	color: #999999;
-}
-.megamenu.disabled > a:hover,
-.megamenu.disabled > a:focus {
-  	text-decoration: none;
-  	background-color: transparent;
-  	background-image: none;
-  	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
-  	cursor: not-allowed;
-}
-.megamenu .dropdown-header {
-  	color: #428bca;
-  	font-size: 16px;
-  	font-weight: bold;
-  	padding-left: 15px;
-}
-@media (max-width: 768px) {
-  .megamenu{
-      margin-left: 0 ;
-      margin-right: 0 ;
-  }
-  .megamenu> li {
-      margin-bottom: 30px;
-  }
-  .megamenu> li:last-child {
-      margin-bottom: 0;
-  }
-  .megamenu.dropdown-header {
-      padding: 3px 15px !important;
-  }
-  .navbar-nav .open .dropdown-menu .dropdown-header{
-	  color:#fff;
-  }
-}
-
-/**************************************************************************************/
-/* Angular UI-Bootstrap responsive navbar                                             */
-/* (from https://github.com/andr3w321/angularjs-bootstrap3-responsive-navbar-example) */
-/**************************************************************************************/
-.header-placeholder {
-    height: 50px;
-}
-
-@media (max-width: 767px) {
-	.visible-xs.collapse.in {
-		display: block!important;
-	}
-	.visible-xs.collapse {
-		display: none!important;
-	}
-}
-
-.navbar .collapse {
-	border-top: 1px solid #e7e7e7;
-	margin-left: -15px;
-	margin-right: -15px;
-	padding-right: 15px;
-	padding-left: 15px;
+.main-img {
+  width: 100%;
 }
 
 .feature {
-  width: 100%;
-  height: 50px;
-  border: 2px solid black;
+  height: 150px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
