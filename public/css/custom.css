@@ -37,6 +37,10 @@ h4 {
   width: 100%;
 }
 
+.footer-hack {
+  margin-top: 50px;
+}
+
 .issues {
   list-style: none;
 }
