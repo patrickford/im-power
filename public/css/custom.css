@@ -14,6 +14,13 @@ body {
   height: 100%;
 }
 
+h3 {
+  margin-top: 0;
+}
+h4 {
+  margin-bottom: 0;
+}
+
 #wrapper {
    min-height: 100%;
    position: relative;
@@ -32,6 +39,17 @@ body {
 
 .issues {
   list-style: none;
+}
+
+.issues > li {
+  line-height: 1.5em;
+}
+
+.tweet-pic {
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+  margin-bottom: 5px;
 }
 
 .dashboard-header {
