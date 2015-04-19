@@ -1,0 +1,292 @@
+/*****************************************************************************/
+/* Custom CSS for I'm Power - Re-engaging Democracy - by Patrick Ford        */   
+/* Loaded after the customized bootstrap.css which is built from LESS files. */
+/*****************************************************************************/
+@charset "UTF-8";
+
+/***************************/
+/* Bootstrap.css overrides */
+/***************************/
+
+body {
+<<<<<<< HEAD
+  padding-top: 50px;
+  margin: 0;
+=======
+  padding-top: 60px;
+>>>>>>> foot
+  background-color: #F8F8F8;
+  height: 100%;
+}
+
+#wrapper {
+   min-height: 100%;
+   position: relative;
+}
+
+#main-body {
+   padding-bottom: 50px;   /* Height of the footer */
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+}
+
+.footer-content {
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  padding-top: 15px;
+  padding-left: 0;
+  padding-right: 0;
+  background-color: #333;
+  text-align: center;
+  color: #fff;
+}
+
+#logo
+{
+	float: left;
+	margin-left: 35%;
+	margin-top: -20%;
+}
+
+.brand-color {
+	color: #70a8e0;
+}
+
+.grey-color {
+	color: #666;
+}
+
+.alert-color {
+	color: #cc0000;
+}
+
+.info-color {
+	background-color: #ecf4fb;
+}
+
+.container {
+	min-height: 400px;
+	margin-top: -5px;
+}
+
+a, a:link, a:visited {
+	color: #003399;
+	text-decoration: none;
+}
+
+/**********************************/
+/* End of Bootstrap.css overrides */
+/**********************************/
+
+/* For Angular-UI Bootstrap */
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+/* Icon that shows availability of alternate view on phone devices based on orientation */
+#rotate-phone {
+	height: 25px;
+	width: 25px;
+}
+/******************/
+/* Navigation     */
+/******************/
+
+.navbar{
+	background-color: white;
+	height: 60px;
+	border-bottom: 2px solid #3B7ABC;
+}
+
+#bar
+{
+	border: 1px solid #3B7ABC;
+}
+
+#nav-button
+{
+	background-color: transparent;
+	color: #3B7ABC;
+	float: right;
+	border-color: #3B7ABC;
+	margin-top: 9%;
+	margin-left: 15px;
+}
+
+#nav-button:hover
+{
+	background-color: #3B7ABC;
+	color: white;
+	border-color: #3B7ABC;
+}
+
+/******************/
+/* Helper Classes */
+/******************/
+.white-background {
+	background-color: #ffffff;
+}
+
+.text-normal {
+	font-weight: normal;
+}
+
+.section-divider {
+	border-bottom: 1px solid #ddd;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.reduce-margin-top-5 {
+	margin-top: -5px;
+}
+.remove-margin-top,
+.remove-top-margin {
+	margin-top: 0;
+}
+.remove-margin-bottom,
+.remove-bottom-margin {
+	margin-bottom: 0;
+}
+
+.add-radius {
+	border-radius: 3px;
+}
+
+.add-border-right {
+	border-right: 1px solid #ddd;
+}
+
+.add-border-left {
+	border-left: 1px solid #ddd;
+}
+
+.add-border-bottom {
+	border-bottom: 1px solid #ddd;
+}
+.add-margin-top-5,
+.add-top-margin-5 {
+	margin-top: 5px;
+}
+.add-margin-top-10,
+.add-top-margin-10 {
+	margin-top: 10px;
+}
+.add-margin-top-15,
+.add-top-margin-15 {
+	margin-top: 15px;
+}
+.add-margin-top-20,
+.add-top-margin-20 {
+	margin-top: 20px;
+}
+.add-margin-bottom-5,
+.add-bottom-margin-5 {
+	margin-bottom: 5px;
+}
+.add-margin-bottom-10,
+.add-bottom-margin-10 {
+	margin-bottom: 10px;
+}
+.add-margin-bottom-15,
+.add-bottom-margin-15 {
+	margin-bottom: 15px;
+}
+
+.add-margin-right-10 {
+	margin-right: 10px;
+}
+.add-margin-left-10 {
+	margin-left: 10px;
+}
+.add-padding-right-10 {
+	padding-right: 10px;
+}
+.add-padding-left-10 {
+	padding-left: 10px;
+}
+.add-padding-left-20 {
+	padding-left: 20px;
+}
+.add-padding-left-30 {
+	padding-left: 30px;
+}
+.remove-side-padding {
+	padding-left: 0;
+	padding-right: 0;
+}
+.remove-left-padding {
+	padding-left: 0;
+}
+.remove-right-padding {
+	padding-right: 0;
+}
+
+.unselectable {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	cursor: default;
+}
+
+/*************************/
+/* End of Helper Classes */
+/*************************/
+
+/* Use hand pointer cursor for active controls */
+.sortable, .selectable{
+	cursor: pointer;
+}
+
+.main-img {
+  width: 100%;
+}
+
+.feature {
+  height: 150px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+<<<<<<< HEAD
+=======
+.description
+{
+	padding-bottom: 4%;
+}
+.footer {
+	width: 100%;
+	height: 60px;
+	margin: 0;
+  	padding-top: 25px;
+  	padding-bottom: 20px;
+	background-color: #3B7ABC;
+	text-align: center;
+	color: #fff;
+}
+
+.pull_right
+{
+	padding-left: 30%;
+}
+
+>>>>>>> foot
+.legal-links {
+	list-style: none;
+	margin: 0;
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+}
+.legal-links > li {
+	display: inline;
+}
+.legal-links > li> a {
+  display: inline-block;
+	color: #fff;
+}

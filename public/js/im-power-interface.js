@@ -22,5 +22,8 @@ $(document).ready(function() {
         },
         function() { $('.dropdown-menu', this).stop().fadeOut("fast");
     });
- 
+
+    $('#registerModal').on('shown.bs.modal', function (e) {
+    	alert('Modal is successfully shown!');
+			});
 })
