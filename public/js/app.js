@@ -24,7 +24,6 @@ var myApp = angular.module('myApp',
         })
         .when('/dashboard', {
           templateUrl: 'partials/dashboard.html',
-          controller: 'js/dashboard.js'
         })
         .when('/coming-soon', {
           templateUrl: 'partials/comingsoon.html'
