@@ -10,7 +10,7 @@
 
 body {
   padding-top: 60px;
-  background-color: #F8F8F8;
+  background-color: #E8E8E8;
   height: 100%;
 }
 
@@ -38,6 +38,25 @@ body {
   margin-top: -65px;
   margin-left: 2px;
   bottom-border: 2px solid #3b7abc;
+}
+
+.user-name {
+	margin-left: 130px;
+	margin-top: -100px;
+	font-size: 25px;
+}
+
+.score {
+	margin-top: 5px;
+	color: #3B7ABC;
+	margin-left: 130px;
+	margin-bottom: 30px;
+}
+
+.picture {
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 30px;
 }
 
 .footer-content {
