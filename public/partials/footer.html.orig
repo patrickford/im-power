@@ -1,0 +1,28 @@
+<<<<<<< HEAD
+<div class="row footer-content">
+  <ul class="legal-links">
+    <li><a href="#">About Us</a><span>&nbsp;|</span></li>
+    <li><a href="#">Support</a><span>&nbsp;|</span></li>
+    <li><a href="#">Contact</a><span>&nbsp;|</span></li>
+    <li><a href="#">Legal</a><span>&nbsp;|</span></li>
+    <li><a href="#">Terms</a><span>&nbsp;|</span></li>
+    <li><a href="#">Privacy</a><span>&nbsp;|</span></li>
+    <li><a href="#">Security</a><span>&nbsp;|</span></li>
+    <li><a href="#"><span>&nbsp;&copy;&nbsp;</span>2015 I'm Power</a></li>
+  </ul>
+=======
+<div class="footer" id="footer">
+    <div class="container">
+      <ul class="legal-links">
+        <li><a href="#">About Us</a><span> • </span></li>
+        <li><a href="#">Support</a><span> • </span></li>
+        <li><a href="#">Contact</a><span> • </span></li>
+        <li><a href="#">Legal</a><span> • </span></li>
+        <li><a href="#">Terms</a><span> • </span></li>
+        <li><a href="#">Privacy</a><span> • </span></li>
+        <li><a href="#">Security</a></li>
+        <li><span class="pull_right">COPYRIGHT © 2015 IMPOWER Inc.</span></li>
+      </ul>
+    </div>  
+>>>>>>> foot
+</div> <!-- row -->

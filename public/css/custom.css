@@ -9,8 +9,7 @@
 /***************************/
 
 body {
-  padding-top: 50px;
-  margin: 0;
+  padding-top: 60px;
   background-color: #F8F8F8;
   height: 100%;
 }
@@ -43,6 +42,13 @@ body {
   color: #fff;
 }
 
+#logo
+{
+	float: left;
+	margin-left: 35%;
+	margin-top: -20%;
+}
+
 .brand-color {
 	color: #70a8e0;
 }
@@ -61,7 +67,7 @@ body {
 
 .container {
 	min-height: 400px;
-
+	margin-top: -5px;
 }
 
 a, a:link, a:visited {
@@ -81,15 +87,6 @@ a, a:link, a:visited {
 	height: 25px;
 	width: 25px;
 }
-
-.min-height-panel {
-    min-height: 600px;
-}
-
-.min-height-panel {
-    min-height: 600px;
-}
-
 /******************/
 /* Navigation     */
 /******************/
@@ -97,56 +94,29 @@ a, a:link, a:visited {
 .navbar{
 	background-color: white;
 	height: 60px;
-	border: none;
+	border-bottom: 2px solid #3B7ABC;
 }
 
-#nav-color-first
+#bar
 {
-	color: #5BC0DE;
-	margin-top: -44px;
-	margin-left: 900px;
-}
-
-#nav-color
-{
-	color: #5BC0DE;
-	margin-top: -44px;
-}
-
-#nav-button-first
-{
-	background-color: transparent;
-	color: #5BC0DE;
-	margin-top: -35px;
-	margin-left: 900px;
-	border-color: #5BC0DE;
+	border: 1px solid #3B7ABC;
 }
 
 #nav-button
 {
 	background-color: transparent;
-	color: #5BC0DE;
-	margin-top: -35px;
-	margin-left: 1000px;
-	border-color: #5BC0DE;
-}
-
-#nav-button-first:hover
-{
-	background-color: #5BC0DE;
-	color: white;
-	margin-top: -35px;
-	margin-left: 900px;
-	border-color: #5BC0DE;
+	color: #3B7ABC;
+	float: right;
+	border-color: #3B7ABC;
+	margin-top: 9%;
+	margin-left: 15px;
 }
 
 #nav-button:hover
 {
-	background-color: #5BC0DE;
+	background-color: #3B7ABC;
 	color: white;
-	margin-top: -35px;
-	margin-left: 1000px;
-	border-color: #5BC0DE;
+	border-color: #3B7ABC;
 }
 
 /******************/
@@ -276,6 +246,26 @@ a, a:link, a:visited {
   margin-top: 30px;
   margin-bottom: 40px;
   text-align: center;
+}
+
+.description
+{
+	padding-bottom: 4%;
+}
+.footer {
+	width: 100%;
+	height: 60px;
+	margin: 0;
+  	padding-top: 25px;
+  	padding-bottom: 20px;
+	background-color: #3B7ABC;
+	text-align: center;
+	color: #fff;
+}
+
+.pull_right
+{
+	padding-left: 30%;
 }
 
 .legal-links {
